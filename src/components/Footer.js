@@ -1,10 +1,9 @@
 import React from 'react';
-import { ReactComponent as Logo } from '../ui-kit/Recent.svg';
+// import { ReactComponent as Logo } from '../ui-kit/Recent.svg';
 
 function Footer() {
     return(
-        <>
-            <Logo />
+        <footer>
             <div>
                 <h3>Dormant Navigation</h3>
                 <ul>
@@ -44,7 +43,7 @@ function Footer() {
                     <li>Email</li>
                 </ul>
             </div>
-        </>
+        </footer>
     )
 };
 

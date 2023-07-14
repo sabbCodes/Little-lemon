@@ -3,4 +3,167 @@
 ::before{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+.header,
+.mainContent{
+  margin: 10px auto;
+  max-width: 50vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.navigation li{
+  margin-right: 30px;
+}
+
+.navigation li:last-child{
+  margin-right: 0;
+}
+
+.navigation a{
+  color: #495E57;
+  font-weight: bold;
+}
+
+ul{
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+li,
+a{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* ///////MAIN SECTION/////// */
+.wrapper{
+  background-color: #495E57;
+  height: 270px;
+}
+
+/* //////HERO////// */
+
+.heroSection{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+  width: 100%;
+}
+
+.title{
+  color: #d8bc30;
+}
+
+.location,
+.description{
+  color: #EDEFEE;
+}
+
+.description{
+  padding-top: 20px;
+  width: 208px;
+}
+
+.reserveBtn{
+  margin-top: 10px;
+}
+
+.reserveBtn,
+.onlineBtn{
+  background-color: #ffdf3d;
+  color: #333333;
+  width: 150px;
+  height: 30px;
+  border-radius: 9px;
+  outline: none;
+  border: none;
+  font-weight: bold;
+}
+
+.reserveBtn:hover,
+.reserveBtn:focus{
+  cursor: pointer;
+}
+
+.food img{
+  width: 280px;
+  height: 330px;
+  border-radius: 10px;
+  display: block;
+  float: right;
+  position: relative;
+  top: 15px;
+}
+
+/* ///////HIGHLIGHTS/////// */
+.highlightsWrapper{
+  max-width: 50vw;
+  min-height: 1000px;
+  margin: 20px auto;
+}
+
+.highlightsHead{
+  display: flex;
+  justify-content: space-between;
+}
+
+.specials{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0 100px 0;
+}
+
+.specialItem{
+  width: 240px;
+  background-color: #EDEFEE;
+  height: auto;
+  border-radius: 9px;
+}
+
+.specialItem img{
+  width: 100%;
+  height: 170px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+.innerItem{
+  margin: 20px 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.specialHeader{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+/* //////TYPOGRAPHY////// */
+span{
+  font-weight: bold;
+  color: gold;
+}
+h5{
+  margin-top: 50px;
+}
+
+#brusch{
+  margin: 30px 0 20px 0;
+}
+
+.specialItem p{
+  font-size: small;
 }
